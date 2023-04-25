@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+.principal{
+    background-image: url(./imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.aviso{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.conteiner-imagem{
+    margin: 1em 0 2em 0;
+}
+.conteiner-caixa{
+    margin: 0 6em;
+}
+.secundario-imagem{
+    width: 80%;
+}
+.secundario2{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0,1em;
+}
+.descricao-paragrafo{
+    color: var(--cinza-secundario);
+}
+.botao-secundario{
+    display: inline-block;
+    margin-top: 1em;
+}
+.descricao{
+    padding: 2em;
+}
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos-titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.dispositivos-lista-itens{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+.rodape{
+    text-align: center;
+    margin: 1em 0;
+}
+.rodape-lista{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 5em 0 5em;
+}
+.lista-itens{
+    list-style-type: none;
+    font-size: 16px;
+   
+}
+a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+.rodape-texto{
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 2em 5em 2em 5em;
+}
+.lista-itens a:hover{
+    color: var(--botao-azul);
+}
