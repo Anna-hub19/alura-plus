@@ -1,4 +1,4 @@
-# alura-plus
+# alura plus
 ## Tecnologias utilizadas no projeto
 * HTML
 * CSS
